@@ -13,6 +13,7 @@ function draw() {
   rotateX(angle);
   rotateY(angle * 0.3);
   rotateZ(angle * 1.2);
-  rect(0,0,150,150);
+  //rect(0,0,150,150);
+  box();
   angle += 0.07;
 }

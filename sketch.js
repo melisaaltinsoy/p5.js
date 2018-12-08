@@ -5,11 +5,11 @@ function setup() {
 }
 
 function draw() {
-  background(100);
+  background(105);
   
   rectMode(CENTER);
   noStroke();
-  fill(0);
+  fill(0,250,250);
   rotateX(angle);
   rotateY(angle * 0.3);
   rotateZ(angle * 1.2);

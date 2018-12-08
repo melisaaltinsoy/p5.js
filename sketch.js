@@ -10,6 +10,7 @@ function draw() {
   noStroke();
   fill(0,0,255);
   rotateX(angle);
+  rotateY(angle*0.3);
   rect(0,0,80,80);
   angle += 0.07;
 }

@@ -10,6 +10,7 @@ function draw() {
   rectMode(CENTER);
   noStroke();
   fill(0,250,250);
+  translate(mouseX-width/2,mouseY-height/2);
   rotateX(angle);
   rotateY(angle * 0.3);
   //rotateZ(angle * 1.2);

@@ -5,7 +5,7 @@ function setup() {
 }
 
 function draw() {
-  background(175);
+  background(105);
   
   rectMode(CENTER);
   noStroke();

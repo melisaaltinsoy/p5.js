@@ -5,5 +5,6 @@ function setup() {
 function draw() {
   background(100);
   rectMode(CENTER);
+  noStroke();
   rect(0,0,80,80);
 }
